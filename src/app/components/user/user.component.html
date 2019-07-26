@@ -1,0 +1,10 @@
+<td>
+
+  <input [(ngModel)]="user.name">
+</td>
+<td>
+  <input type="number" [(ngModel)]="user.initiative">
+</td>
+<td  *ngFor="let dummy of ' '.repeat(windowlength).split(''), let x = index">
+  {{user.actOnTick(x + tick)}}
+</td>
