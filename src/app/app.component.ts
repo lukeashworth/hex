@@ -27,7 +27,7 @@ export class AppComponent implements OnInit {
   }
 
   public addUser() {
-    this.users.push(new User());
+    this.users.push(new User(''));
   }
 
   public removeUser(index) {
