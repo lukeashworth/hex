@@ -1,5 +1,4 @@
 export class User {
-  public name: string;
   public initiative = 0;
   constructor(public name) {
   }
