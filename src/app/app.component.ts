@@ -16,7 +16,7 @@ export class AppComponent implements OnInit {
     'Susan',
     'Tori',
     'Bry',
-    'Susan',
+    'Miwa',
     'Si'
   ];
 
